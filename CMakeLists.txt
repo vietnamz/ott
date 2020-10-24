@@ -12,7 +12,6 @@ if(DEFINED ENV{OTT_ROOT})
 endif()
 
 message("Starting building ott platform")
-#add_subdirectory(lib)
 message("${OTT_FLAGS}")
 ADD_DEFINITIONS(-DBOOST_LOG_DYN_LINK)
 if (MSVC)

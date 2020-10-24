@@ -2,7 +2,7 @@
 # my cmake cmake version 3.14.5
 cmake_minimum_required(VERSION 3.14.5)
 #project name
-project(packager_lib)
+#project(packager_lib)
 # mark the cpp files as sources.
 file(GLOB SOURCES "src/*.cpp")
 
