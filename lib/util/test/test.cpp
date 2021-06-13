@@ -1,7 +1,7 @@
 #include <lest/lest.hpp>
-#include "../src/process.hpp"
-#include "../src/tree_dir.hpp"
-#include "../src/logging.hpp"
+#include "util/src/process.hpp"
+#include "util/src/tree_dir.hpp"
+#include "util/src/logging.hpp"
 #include <iostream>
 
 const lest::test specification[] =
